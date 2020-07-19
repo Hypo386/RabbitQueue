@@ -1,0 +1,23 @@
+{
+    "name": "mdykas/rabbitqueue",
+    "description": "Magento2 module prototype to publish and consume message by AMQP and RabbitMQ\n",
+    "require": {
+        "magento/framework": "102.0.*",
+        "magento/framework-amqp": "100.3.*",
+        "magento/framework-message-queue": "100.3.*",
+        "php": "~7.1.3||~7.2.0||~7.3.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "GPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mdykas\\RabbitQueue\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
